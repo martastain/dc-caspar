@@ -1,0 +1,90 @@
+{
+    "actions" :
+    {
+    
+
+
+    "SM01" : {
+        "class"      : "image",
+        "filename"   : "cg_logo",
+        "title"      : "Logo",
+        "channel"    : 1,
+        "layer"      : 20,
+        "auto_hide"  : false,
+        "show"       : "MIX 15",
+        "hide"       : "MIX 15"
+        },
+
+
+    "SM02" : {
+        "class"      : "image",
+        "filename"   : "cg_facebook",
+        "title"      : "Facebook",
+        "channel"    : 1,
+        "layer"      : 10,
+        "auto_hide"  : 10,
+        "show"       : "PUSH 15 RIGHT",
+        "hide"       : "PUSH 15 LEFT"
+        },
+
+
+
+
+
+    "LG13" : {
+        "class"      : "clip",
+        "filename"   : "jingle01",
+        "title"      : "Jingle 01",
+        "end_action" : "LOOP background"
+        },
+
+    "LG14" : {
+        "class"      : "clip",
+        "filename"   : "jingle02",
+        "title"      : "Jingle 02",
+        "end_action" : "LOOP background"
+        },
+
+    "LG15": {
+        "class"      : "clip",
+        "filename"   : "jingle03",
+        "title"      : "Jingle 03",
+        "end_action" : "LOOP background"
+        },
+
+
+
+
+
+    "LG01" : {
+        "class"      : "clip",
+        "filename"   : "sintel",
+        "title"      : "Sintel",
+        "channel"    : 1,
+        "layer"      : 0,
+        "end_action" : false
+        },
+
+
+
+    "LG03" : {
+        "class"      : "clip",
+        "filename"   : "BLANK",
+        "title"      : "BLANK",
+        "channel"    : 1,
+        "layer"      : 1,
+        "end_action" : false
+        },
+
+
+    "LG04" : {
+        "class"      : "clip",
+        "filename"   : "background",
+        "loop"       : true,
+        "title"      : "background",
+        "channel"    : 1,
+        "layer"      : 1,
+        "end_action" : false
+        }
+    }
+}

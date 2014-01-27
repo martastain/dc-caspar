@@ -3,6 +3,11 @@ try:
     from PyQt5.QtCore import *
     from PyQt5.QtGui  import *
     from PyQt5.QtWidgets import *
+
+    Signal = pyqtSignal
+    Slot = pyqtSlot
+    Property = pyqtProperty 
+    
 except:
     from PySide.QtCore import *
     from PySide.QtGui  import *
@@ -15,9 +20,10 @@ BLUE   = "#0317FF"
 
 colors = {
     "color_off" : [ORANGE, BLUE][INVERT_COLORS],
-    "color_on"  : [BLUE, ORANGE][INVERT_COLORS]
+    "color_on"  : [BLUE, ORANGE][INVERT_COLORS],
+    "btnsize1"  : 112,
+    "btnsize2"  : 48
     }
-
 
 base_css = """
 
@@ -48,18 +54,21 @@ QPushButton[ccheck="true"] {{
     border : 2px solid {color_on};
     }}
 
+QPushButton[cblink="true"] {{
+    border : 2px solid #22ee22;
+    }}
 
 
 .BigButton {{
     background-color : #181818;
-    width  : 112px;
-    height : 112px;
+    width  : {btnsize1}px;
+    height : {btnsize1}px;
     }}
 
 .SmallButton {{
     background-color : #121212;
-    width  : 112px;
-    height : 48px;
+    width  : {btnsize1}px;
+    height : {btnsize2}px;
     }}
 
 
