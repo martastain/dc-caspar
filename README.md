@@ -4,7 +4,7 @@ dc-caspar
 Behringer CMD DC-1 CasparCG Controller.
 
 
-Use [this](http://www.behringer.com/EN/Products/CMD-DC-1.aspx) 99$ Midi controller to execute predefined CasparCG macros with visual feedba
+Use [this](http://www.behringer.com/EN/Products/CMD-DC-1.aspx) 99$ Midi controller to execute predefined CasparCG macros with visual feedback
 
 Requires / based on
 -------------------
